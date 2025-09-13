@@ -10,7 +10,7 @@ const App = () => {
 
   // Função para buscar serviços da API
   async function getServicos() {
-    const servicoFromApi = await api.get("/servicos");
+    const servicoFromApi = await api.get("https://api-register-service-fwsm.vercel.app/servicos");
     setServicos(servicoFromApi.data)};
 
 
