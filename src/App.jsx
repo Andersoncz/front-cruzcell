@@ -54,7 +54,7 @@ const App = () => {
   return (
     <div className="container">
       <form className="form">
-        <h1>ASSISTÊNCIA CRUZCELL</h1>
+        <h1> CRUZCELL ASSISTEC</h1>
         <input type="text" name="name" placeholder="Digite o serviço" ref={inputServico} />
         <input type="number" name="valor" placeholder="Valor" ref={inputValor}/>
 
